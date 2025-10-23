@@ -11,6 +11,10 @@ resolution: workspace
 dependencies:
   flutter:
     sdk: flutter
+  appletheia_application: ^0.0.1
+  appletheia_infrastructure: ^0.0.1
+  appletheia_presentation: ^0.0.1
+  appletheia_monad: ^0.0.1
 
 dev_dependencies:
   flutter_test:
