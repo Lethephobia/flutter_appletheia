@@ -1,0 +1,25 @@
+name: _
+description: Flutter AppleTheia monorepo workspace configuration.
+publish_to: none
+environment:
+  sdk: ^3.9.2
+workspace:
+  - packages/appletheia
+  - packages/appletheia_application
+  - packages/appletheia_infrastructure
+  - packages/appletheia_presentation
+  - packages/appletheia_monad
+dev_dependencies:
+  melos: ^7.2.0
+  build_runner: ^2.10.0
+
+melos:
+  repository: https://github.com/Lethephobia/flutter_appletheia
+  scripts:
+    generate:
+      run: melos exec -c 1 --depends-on build_runner -- dart run build_runner build
+  command:
+    publish:
+      hooks:
+        pre: dart pub run build_runner build
+        post: dart pub run build_runner clean
