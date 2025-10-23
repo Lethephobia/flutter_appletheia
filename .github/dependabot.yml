@@ -1,0 +1,12 @@
+version: 2
+updates:
+  - package-ecosystem: "pub"
+    directory: "/apps/lethephobia_cms"
+    schedule:
+      interval: "weekly"
+      timezone: "Asia/Tokyo"
+    commit-message:
+      prefix: "deps"
+    open-pull-requests-limit: 10
+    target-branch: "main"
+    rebase-strategy: "auto"
