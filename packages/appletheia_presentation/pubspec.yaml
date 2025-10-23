@@ -1,5 +1,5 @@
 name: appletheia_presentation
-description: "A new Flutter package project."
+description: Presentation layer widgets and utilities for the AppleTheia Flutter experience.
 version: 0.0.1
 repository: https://github.com/Lethephobia/flutter_appletheia
 

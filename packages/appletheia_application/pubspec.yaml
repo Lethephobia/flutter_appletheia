@@ -1,5 +1,5 @@
 name: appletheia_application
-description: "A new Flutter package project."
+description: Application layer abstractions and services for the AppleTheia Flutter stack.
 version: 0.0.1
 repository: https://github.com/Lethephobia/flutter_appletheia
 

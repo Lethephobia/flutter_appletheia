@@ -1,5 +1,5 @@
 name: appletheia
-description: "A new Flutter package project."
+description: Core interfaces and utilities for building AppleTheia Flutter DDD applications.
 version: 0.0.1
 repository: https://github.com/Lethephobia/flutter_appletheia
 

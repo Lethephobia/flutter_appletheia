@@ -1,4 +1,5 @@
 name: _
+description: Flutter AppleTheia monorepo workspace configuration.
 publish_to: none
 environment:
   sdk: ^3.9.2

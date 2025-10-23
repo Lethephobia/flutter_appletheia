@@ -1,5 +1,5 @@
 name: appletheia_monad
-description: "A new Flutter package project."
+description: Functional result and option monads supporting the AppleTheia Flutter DDD toolkit.
 version: 0.0.1
 repository: https://github.com/Lethephobia/flutter_appletheia
 
